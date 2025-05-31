@@ -1,0 +1,24 @@
+# Set default text file handling
+* text=auto
+
+# Explicitly mark common file types
+*.py text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.log text eol=lf
+
+# Treat images as binary
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.gif binary
+*.ico binary
+
+# Prevent linguist from classifying log files as source
+*.log linguist-documentation
+
+# macOS system files
+.DS_Store binary
