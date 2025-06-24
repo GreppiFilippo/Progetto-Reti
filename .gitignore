@@ -227,8 +227,10 @@ pyrightconfig.json
 
 # End of https://www.toptal.com/developers/gitignore/api/python,macos,visualstudiocode
 
-.log
-.aux
-.fdb_latemk
-.fls
-.gz
+*.log
+*.aux
+*.fdb_latemk
+*.fls
+*.gz
+*.out
+*.fdb_latexmk
